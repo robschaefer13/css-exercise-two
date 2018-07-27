@@ -1,14 +1,48 @@
+/* This is now the correct css file to be submitted */
+
+
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-size: 16px; font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  line-height: 110%;
+  background: #fff (css/images/bloc-logo.png) no-repeat top center;
+  background-color: #FFFFFF;
+  color: #000000;
 }
+
+
+
+h1 {
+  margin: 30px;
+  text-align: left;
+  font-size: 2.5em; /* 40px */
+  line-height: 100%;
+}
+
+h3 {
+  margin: 30px;
+  text-align: left;
+  font-size: 1.5em; /* 32px */
+  line-height: 100%;
+}
+
+p {
+  margin: 24px;
+  text-align: left;
+  line-height: 120%;
+}
+
+figcaption {
+  font-size: .8em; /* 8px */
+}
+
 
 nav {
   background-color: rgba(0,0,0,.5);
   float: left;
-  position: fixed;
+  position: relative;
   width: 100%;
 }
+
 
 .logo {
   margin: 20px;
@@ -48,5 +82,10 @@ article {
 
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 70%;
+}
+
+a {
+  text-decoration: none;
+  hover { color:#0000FF; } /* mouse over */
 }
